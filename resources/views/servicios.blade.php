@@ -43,7 +43,7 @@
                             <div class="content-law">
                                 <h4 class="name">DERECHO PENAL</h4>
                                 <p class="description">Asesoría y representación integral en materia penal, mediante estrategias frente a actos delictivos o ilegales que puedan afectar en casos de personas jurídicas, a directivos y funcionarios de empresas, clientes, proveedores y terceros relacionados con la actividad empresarial, al igual que a personas naturales.</p>
-                                <a href="#">Ver mas</a>
+                                <a href="#DerechoPenal">Ver mas</a>
                             </div>
                         </div>
 
@@ -61,7 +61,7 @@
                             <div class="content-law">
                                 <h4 class="name">DERECHO PRIVADO</h4>
                                 <p class="description">Contamos con excelentes experiencia y condiciones académicas y profesionales en todos los aspectos relacionados con el Derecho Privado, cuya práctica se desarrolla desde la asesoría, consultoría y acompañamiento en las diferentes especialidades de ésta área, llegando hasta la representación judicial y extrajudicial garantizando los intereses de todos nuestros clientes.</p>
-                                <a href="#">Ver mas</a>
+                                <a href="#DerechoPrivado">Ver mas</a>
                             </div>
                         </div>
                     </div>
@@ -78,7 +78,7 @@
                             <div class="content-law">
                                 <h4 class="name">DERECHO LABORAL Y SEGURIDAD SOCIAL</h4>
                                 <p class="description">Nuestra práctica se encuentra conformada por profesionales especializados en Derecho Laboral y Seguridad Social, con experiencia en consultorías en Derecho Laboral Individual y en Derecho Laboral Colectivo, en litigio en procesos laborales en primera instancia, segunda instancia y Corte Suprema de Justicia.</p>
-                                <a href="#">Ver mas</a>
+                                <a href="#DerechoLaboral">Ver mas</a>
                             </div>
                         </div>
                     </div>
@@ -129,7 +129,7 @@
                             <div class="content-law">
                                 <h4 class="name">PENSIONES</h4>
                                 <p class="description">Nuestra experiencia nos permite brindar una asesoría especializada a cualquier persona que presente inconsistencias en sus aportes pensionales y/o se sienta vulnerado en sus derechos pensionales adquiridos; nuestro trabajo va desde una corrección en su historial laboral hasta la representación legal que le permita el reconocimiento y goce de éste derecho.</p>
-                                <a href="#">Ver mas</a>
+                                <a href="#Pensiones">Ver mas</a>
                             </div>
                         </div>
                     </div>
@@ -150,7 +150,7 @@
                                 Derechos de Petición <br>
                                 Consultoría general
                                 </p>
-                                <a href="#">Ver mas</a>
+                                <a href="#otros">Ver mas</a>
                             </div>
                         </div>
                     </div>
@@ -165,7 +165,7 @@
         <div class="row">
             <div class="col-lg-6 col-md-12">
                 <div class="post-blog">
-                    <article class="main-post mg-bottom-bl">
+                    <article class="main-post mg-bottom-bl" id="DerechoPenal">
                         <div class="featured-post">
                             <div class="entry-img">
                                 <a href="javascript:;"><img src="{{ asset('assets/images/practice/09.jpg') }}" alt="images"></a>
@@ -184,7 +184,147 @@
                             </div>
                         </div>
                     </article>
-                    <article class="main-post mg-bottom-bl">
+                    <article class="main-post mg-bottom-bl" id="DerechoPrivado">
+                        <div class="featured-post">
+                            <div class="entry-img">
+                                <a href="javascript:;"><img src="{{ asset('assets/images/practice/09.jpg') }}" alt="images"></a>
+                            </div>
+                        </div>
+                        <div class="post-content content-blog clearfix">
+                            <div class="post-meta-right">
+                                <div class="entry-content-bl">
+                                    <h3 class="title"><a href="javascript:;">DERECHO PRIVADO</a></h3>
+                                    <p class="text-justify">
+                                        Contamos con excelentes experiencia y condiciones académicas y
+                                        profesionales en todos los aspectos relacionados con el Derecho Privado,
+                                        cuya práctica se desarrolla desde la asesoría, consultoría y acompañamiento
+                                        en las diferentes especialidades de ésta área, llegando hasta la representación
+                                        judicial y extrajudicial garantizando los intereses de todos nuestros clientes.
+                                        En Derecho Privado y resolución de conflictos, ofrecemos consultorías y
+                                        asesoría integral a todas las personas naturales y jurídica en:
+                                        <br><br>
+                                            Consultoría y acompañamiento en las etapas pre-contractuales,
+                                                contractuales y post contractuales en todo lo relacionado con la
+                                                contratación mercantil.<br>
+                                            Representación legal en procesos judiciales de naturaleza civil,
+                                                responsabilidad contractual y extracontractual, cobros coactivos,
+                                                sucesiones, propiedad y bienes, pertenencias, posesiones, obras civiles,
+                                                propiedad horizontal, bienes raíces, garantías, derecho policivo, entre
+                                                otros.<br>
+                                            Elaboración de minutas, contratos civiles y comerciales, suscripción de
+                                                convenios.<br>
+                                            Soporte en procesos de negociación de contratación civil y comercial.<br>
+                                            Etapas Prejudiciales, Notariales y Judiciales en asuntos de Derecho de
+                                                Sucesiones, el cual contempla la investigación de bienes del causante.<br>
+                                            Consultoría y soporte en procesos pre jurídicos y jurídicos en personas
+                                                naturales y a nivel empresarial.<br>
+                                            Asesoría y asistencia legal en procesos de negociación; celebración,
+                                                ejecución, terminación y liquidación de contratos civiles y comerciales.<br>
+                                            Asuntos y trámites concernientes al derecho de familia, alimentos,
+                                                custodia, patria potestad, visitas, matrimonio, liquidación y disolución
+                                                de sociedades conyugales y/o uniones maritales de hecho.<br>
+                                            Absolución de consultas jurídicas y elaboración de conceptos en materia
+                                                civil y comercial.<br>
+                                            Asesoría y representación en actuaciones administrativas adelantadas
+                                                ante la superintendencia de industria y comercio en asuntos
+                                                relacionados con la protección del consumidor y derecho de la
+                                                competencia.<br>
+                                            Trámite y culminación de procesos ante la jurisdicción civil.<br>
+                                        
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="main-post mg-bottom-bl" id="DerechoLaboral">
+                        <div class="featured-post">
+                            <div class="entry-img">
+                                <a href="javascript:;"><img src="{{ asset('assets/images/practice/09.jpg') }}" alt="images"></a>
+                            </div>
+                        </div>
+                        <div class="post-content content-blog clearfix">
+                            <div class="post-meta-right">
+                                <div class="entry-content-bl">
+                                    <h3 class="title"><a href="javascript:;">DERECHO LABORAL Y SEGURIDAD SOCIAL</a></h3>
+                                    <p class="text-justify">
+                                        Nuestra práctica se encuentra conformada por profesionales especializados
+                                        en Derecho Laboral y Seguridad Social, con experiencia en consultorías en
+                                        Derecho Laboral Individual y en Derecho Laboral Colectivo, en litigio en
+                                        procesos laborales en primera instancia, segunda instancia y Corte Suprema
+                                        de Justicia.
+                                        <br>
+                                        Tenemos la competencia para prestar asesoría integral en materia laboral y
+                                        seguridad social a personas naturales y jurídicas, en lo siguiente:
+
+                                        <br><br>
+
+                                        La absolución de consultas.
+                                        <br> Representación extraprocesal y judicialmente de clientes, en defensa de
+                                        sus derechos laborales.
+                                        Ÿ<br>Asesoría, elaboración y revisión de contratos laborales
+                                        <br> Asesoría preventiva a empresas, en búsqueda de la prevención de
+                                        futuras demandas.
+                                        <br> Modalidades de contratación laboral.
+                                        <br> Asesoría legal en procesos de selección y búsqueda de candidato.
+                                        <br> Asesoría en modalidad de contratación.
+                                        <br> Asesoría en modalidades de pago de salarios y prebendas.
+                                        <br> Asesoría en llamados de atención, descargos y sanciones de empleado.
+                                        <br> Asesoría y acompañamiento en despidos y liquidación de acreencias o
+                                        créditos laborales.
+                                        <br> Asesoría en incapacidades laborales.
+                                        <br> Asesoría en enfermedades profesionales.
+                                        <br> Asesoría en reservas de confidencialidad para empleados.
+                                        <br> Asesorías en estudios de seguridad para empleados.
+                                        <br> Elaboración y cumplimiento de reglamentos internos de trabajo.
+                                        <br> Manejo de caso en fuero de maternidad.
+                                        <br> Manejo de caso en fuero de salud.
+                                        <br> Negociaciones y pactos sindicales.
+                                        <br> Juicios y conciliaciones laborales.
+                                        <br> Tercerización de personal.
+                                        <br> Relaciones empresariales con colaboradores.
+                                        <br> Relaciones con contratistas bajo contratos de prestación de servicios.
+                                        <br> Asesoría y representación en caso de seguridad social, salud, pensión o
+                                        ARL.
+                                        <br> Cambios en las condiciones laborales.
+                                        <br> Gestión migratoria de empleados.
+                                        <br> Procesos sancionatorios ante el Ministerio del Trabajo y la Unidad de
+                                        Gestión Pensional y de Parafiscales.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="main-post mg-bottom-bl" id="Pensiones">
+                        <div class="featured-post">
+                            <div class="entry-img">
+                                <a href="javascript:;"><img src="{{ asset('assets/images/practice/09.jpg') }}" alt="images"></a>
+                            </div>
+                        </div>
+                        <div class="post-content content-blog clearfix">
+                            <div class="post-meta-right">
+                                <div class="entry-content-bl">
+                                    <h3 class="title"><a href="javascript:;">PENSIONES</a></h3>
+                                    <p class="text-justify">
+                                        Nuestra experiencia nos permite brindar una asesoría especializada a
+                                        cualquier persona que presente inconsistencias en sus aportes pensionales
+                                        y/o se sienta vulnerado en sus derechos pensionales adquiridos; nuestro
+                                        trabajo va desde una corrección en su historial laboral hasta la
+                                        representación legal que le permita el reconocimiento y goce de éste derecho.
+
+                                        <br><br>
+                                        Pensiones por vejez, invalidez y muerte.<br>
+                                        Reajustes pensiónales.<br>
+                                        Indemnizaciones sustitutivas.<br>
+                                        Reclamaciones ante EPS, Aseguradoras de Riesgos Laborales y fondos<br>
+                                        de pensiones.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    {{-- <article class="main-post mg-bottom-bl">
                         <div class="featured-post">
                             <div class="entry-img">
                                 <a href="#"><img src="{{ asset('assets/images/practice/09.jpg') }}" alt="images"></a>
@@ -247,7 +387,7 @@
                                 <a href="#" class="hvr-vertical">read more</a>
                             </div>
                         </div>
-                    </article>
+                    </article> --}}
                 </div>
             </div>
             {{-- <div class="col-lg-6 col-md-12">

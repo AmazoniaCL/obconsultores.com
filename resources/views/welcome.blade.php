@@ -339,7 +339,7 @@
                             <div class="content-law">
                                 <h4 class="name">DERECHO PENAL</h4>
                                 <p class="description text-justify">Asesoría y representación integral en materia penal, mediante estrategias frente a actos delictivos o ilegales que puedan afectar en casos de personas jurídicas, a directivos y funcionarios de empresas, clientes, proveedores y terceros relacionados con la actividad empresarial, al igual que a personas naturales.</p>
-                                <a href="#">Ver mas</a>
+                                <a href="/servicios#DerechoPenal">Ver mas</a>
                             </div>
                         </div>
                     </div>
@@ -356,7 +356,7 @@
                             <div class="content-law">
                                 <h4 class="name">DERECHO PRIVADO</h4>
                                 <p class="description text-justify">Contamos con excelentes experiencia y condiciones académicas y profesionales en todos los aspectos relacionados con el Derecho Privado, cuya práctica se desarrolla desde la asesoría, consultoría y acompañamiento en las diferentes especialidades de ésta área, llegando hasta la representación judicial y extrajudicial garantizando los intereses de todos nuestros clientes.</p>
-                                <a href="#">Ver mas</a>
+                                <a href="/servicios#DerechoPrivado">Ver mas</a>
                             </div>
                         </div>
                     </div>
@@ -373,7 +373,7 @@
                             <div class="content-law">
                                 <h4 class="name">DERECHO LABORAL Y SEGURIDAD SOCIAL</h4>
                                 <p class="description text-justify">Nuestra práctica se encuentra conformada por profesionales especializados en Derecho Laboral y Seguridad Social, con experiencia en consultorías en Derecho Laboral Individual y en Derecho Laboral Colectivo, en litigio en procesos laborales en primera instancia, segunda instancia y Corte Suprema de Justicia.</p>
-                                <a href="#">Ver mas</a>
+                                <a href="/servicios#DerechoLaboral">Ver mas</a>
                             </div>
                         </div>
                     </div>
@@ -424,7 +424,7 @@
                             <div class="content-law">
                                 <h4 class="name">PENSIONES</h4>
                                 <p class="description text-justify">Nuestra experiencia nos permite brindar una asesoría especializada a cualquier persona que presente inconsistencias en sus aportes pensionales y/o se sienta vulnerado en sus derechos pensionales adquiridos; nuestro trabajo va desde una corrección en su historial laboral hasta la representación legal que le permita el reconocimiento y goce de éste derecho.</p>
-                                <a href="#">Ver mas</a>
+                                <a href="/servicios#Pensiones">Ver mas</a>
                             </div>
                         </div>
                     </div>
@@ -445,7 +445,7 @@
                                 Derechos de Petición <br>
                                 Consultoría general
                                 </p>
-                                <a href="#">Ver mas</a>
+                                <a href="/servicios">Ver mas</a>
                             </div>
                         </div>
                     </div>
