@@ -35,24 +35,28 @@
                     <nav id="mainnav" class="mainnav">
                         <ul class="menu">
                             <li>
-                                <a href="/" class="active">Inicio</a>
+                                <a href="/" class="{{ Request::is('/') ? 'active' : '' }}">Inicio</a>
                             </li>
                             <li>
-                                <a href="/nosotros">Nosotros</a>
+                                <a href="/nosotros" class="{{ Request::is('nosotros') ? 'active' : '' }}">Nosotros</a>
                             </li>
                             <li>
-                                <a href="/servicios">Servicios</a>
+                                <a href="/servicios" class="{{ Request::is('servicios') ? 'active' : '' }}">Servicios</a>
                             </li>
                             <li>
-                                <a href="/contacto">Contacto</a>
+                                <a href="/contacto" class="{{ Request::is('contacto') ? 'active' : '' }}">Contacto</a>
                             </li>
                             <li>
-                                <a href="/administrador">APP</a>
-                            </li>                                      
-                        </ul>                                   
+                                <a href="{{ asset('assets/revista/ObConsultores/index.html') }}" target="_blank">BROCHURE</a>
+                            </li>
+                            <li>
+                                <a href="http://admin.obconsultores.com">APP</a>
+                            </li>
+                        </ul>
                     </nav>
                 </div>
             </div>
         </div>
     </div>
 </header><!-- header -->
+

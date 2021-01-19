@@ -24,3 +24,5 @@
     <script src="{{ asset('assets/rev-slider/js/extensions/extensionsrevolution.extension.parallax.min.js') }}"></script>
     <script src="{{ asset('assets/rev-slider/js/extensions/extensionsrevolution.extension.slideanims.min.js') }}"></script>
     <script src="{{ asset('assets/rev-slider/js/extensions/extensionsrevolution.extension.video.min.js') }}"></script>
+
+    @yield('MyScripts')

@@ -20,4 +20,7 @@
     <link rel="stylesheet" href="{{ asset('assets/rev-slider/css/settings.css') }}">
 
     <link href="{{ asset('assets/icon/favicon.ico') }}" rel="shortcut icon">
+
+    {{-- CSRF Token --}}
+    <meta name="csrf-token" content="{{ csrf_token() }}">
 </head>

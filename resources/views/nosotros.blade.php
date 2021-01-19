@@ -4,13 +4,13 @@
 <div class="page-title">
     <div class="container">
         <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-8">
                 <div class="content">
                     <h2 class="title-banner">Nosotros</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing<br> elit sed do eius mod tempor incididunt</p>
+                    <p>OB consultores S.A.S., somos una empresa integrada por un equipo deabogados altamente capacitados y cualificados con valores y principio.</p>
                 </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-4">
                 <ul class="breadcrumb">
                     <li><a href="/" class="active">Inicio</a></li>
                     <li><a href="#">Nosotros</a></li>
@@ -19,38 +19,29 @@
         </div>
     </div>
 </div><!-- page-title -->
-<div class="about about-style1">
+<div class="about about-style1 overlay" id="quienes-somos">
     <div class="container">
         <div class="text-content">
             <div class="row">
-                <div class="col-lg-4 col-md-12 col-sm-12">
-                    <div class="heading">Nuestra Identidad</div>
+                <div class="col-lg-4 col-md-12 col-sm-12 mb-2">
+                    <div class="heading">QUIÉNES SOMOS</div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="col-sm-12">
                     <p class="description">
-                        Vore et dot enim ad minim veniam, quis nos trud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui off icia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantiteur sint occaecat cupi 
-                    </p>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <p class="description">
-                        Fore et dot enim ad minim veniam, quis nos trud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure do in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupi datat non proident, sunt in culpa
+                        OB consultores S.A.S., somos una empresa integrada por un equipo de abogados altamente capacitados y cualificados con valores y principio. Dedicados a la consultoría, especializados en derecho penal, civil, laboral, familiar, administrativo, pensiones, insolvencia económica, seguridad social y asesoría en tránsito y transporte. Lo que nos permite ofrecer un servicio multidisciplinar integral para satisfacer las necesidades de nuestros clientes.
                     </p>
                 </div>
             </div>
         </div>
-        <div class="the-writer-info">
-            <span class="signature"><img src="{{ asset('assets/images/about/01.png') }}" alt="images"></span>
-            <span class="name">John Doe</span>
-            <span class="position">Founder & CEO</span>
-        </div>
     </div>
 </div><!-- about -->
-<div class="facts">
+
+{{-- <div class="facts">
     <div class="container">
         <div class="flat-counter">
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-sm-12">
-                    <div class="counter">                      
+                    <div class="counter">
                         <div class="content-counter">
                             <div class="numb-count-wrap">
                                 <span class="numb-count" data-from="0" data-to="42" data-speed="2000" data-inviewport="yes">42</span>
@@ -61,7 +52,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12">
-                    <div class="counter">                            
+                    <div class="counter">
                         <div class="content-counter">
                             <div class="numb-count-wrap">
                                 <span class="numb-count" data-from="0" data-to="100" data-speed="2000" data-inviewport="yes">100</span>
@@ -73,7 +64,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12">
-                    <div class="counter">                            
+                    <div class="counter">
                         <div class="content-counter">
                             <div class="numb-count-wrap">
                                 <span class="numb-count" data-from="0" data-to="2000" data-speed="2000" data-inviewport="yes">2000</span>
@@ -99,182 +90,104 @@
             </div>
         </div>
     </div>
-</div><!-- facts -->
+</div> --}}
 
-<div class="attorneys attorneys-style3">
-    <div class="container">
-        <div class="title-section text-center">
-            <h3 class="flat-title">Our Attorney</h3>
-            <p class="sub-title">Dolore magna aliqu onoet enim ad minim veniam</p>
-        </div>
-        <div class="row">
-            <div class="col-lg-4 col-md-6 col-sm-6">
-                <div class="attorneys-info attorneys-hv-link mg-60 custom-align custom-start">
-                    <div class="attorneys-content">
-                        <div class="content-wrap rotate-1">
-                            <h3 class="name"><a href="#">Johnson Doe</a></h3>
-                            <p class="position">Senior Attorney</p>
-                        </div>
-                    </div>
-                    <div class="attorneys-avatar hv-link-content">
-                        <div class="image">
-                            <img src="{{ asset('assets/images/attorneys/01.png') }}" alt="images">
-                        </div>
-                        <div class="overlay-box">
-                            <div class="content">
-                                <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6">
-                <div class="attorneys-info attorneys-hv-link mg-60 custom-align custom-center">
-                    <div class="attorneys-content">
-                        <div class="content-wrap rotate-1">
-                            <h3 class="name"><a href="#">Hannan Crespos</a></h3>
-                            <p class="position">Senior Attorney</p>
-                        </div>
-                    </div>
-                    <div class="attorneys-avatar hv-link-content">
-                        <div class="image">
-                            <img src="{{ asset('assets/images/attorneys/02.png') }}" alt="images">
-                        </div>
-                        <div class="overlay-box">
-                            <div class="content">
-                                <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6">
-                <div class="attorneys-info attorneys-hv-link mg-60 custom-align custom-end">
-                    <div class="attorneys-content">
-                        <div class="content-wrap rotate-1">
-                            <h3 class="name"><a href="#">Ayesha Olivia</a></h3>
-                            <p class="position">Senior Attorney</p>
-                        </div>
-                    </div>
-                    <div class="attorneys-avatar hv-link-content">
-                        <div class="image">
-                            <img src="{{ asset('assets/images/attorneys/03.png') }}" alt="images">
-                        </div>
-                        <div class="overlay-box">
-                            <div class="content">
-                                <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6">
-                <div class="attorneys-info attorneys-hv-link mg-60 custom-align custom-start">
-                    <div class="attorneys-content">
-                        <div class="content-wrap rotate-1">
-                            <h3 class="name"><a href="#">Johnson Doe</a></h3>
-                            <p class="position">Senior Attorney</p>
-                        </div>
-                    </div>
-                    <div class="attorneys-avatar hv-link-content">
-                        <div class="image">
-                            <img src="{{ asset('assets/images/attorneys/04.png') }}" alt="images">
-                        </div>
-                        <div class="overlay-box">
-                            <div class="content">
-                                <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6">
-                <div class="attorneys-info attorneys-hv-link mg-60 custom-align custom-center">
-                    <div class="attorneys-content">
-                        <div class="content-wrap rotate-1">
-                            <h3 class="name"><a href="#">Hannan Crespos</a></h3>
-                            <p class="position">Senior Attorney</p>
-                        </div>
-                    </div>
-                    <div class="attorneys-avatar hv-link-content">
-                        <div class="image">
-                            <img src="{{ asset('assets/images/attorneys/05.png') }}" alt="images">
-                        </div>
-                        <div class="overlay-box">
-                            <div class="content">
-                                <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6">
-                <div class="attorneys-info attorneys-hv-link mg-60 custom-align custom-end">
-                    <div class="attorneys-content">
-                        <div class="content-wrap rotate-1">
-                            <h3 class="name"><a href="#">Ayesha Olivia</a></h3>
-                            <p class="position">Senior Attorney</p>
-                        </div>
-                    </div>
-                    <div class="attorneys-avatar hv-link-content">
-                        <div class="image">
-                            <img src="{{ asset('assets/images/attorneys/06.png') }}" alt="images">
-                        </div>
-                        <div class="overlay-box">
-                            <div class="content">
-                                <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div><!-- attorneys -->
-<div class="featured-banner-type2">
+<section class="about-home">
     <div class="container">
         <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-5">
+                <div class="featured-post">
+                    <div class="entry-image">
+                        <img src="{{ asset('assets/images/home1/04.png') }}" alt="images">
+                    </div>
+                    <div class="image-move">
+                        <img src="{{ asset('assets/images/home1/05.png') }}" alt="images" class="oval-one">
+                        <img src="{{ asset('assets/images/home1/06.png') }}" alt="images" class="oval-two">
+                        <img src="{{ asset('assets/images/home1/07.png') }}" alt="images" class="oval-three">
+                        <img src="{{ asset('assets/images/home1/08.png') }}" alt="images" class="oval-four">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-7">
+                <div class="flat-spacer" data-desktop="36" data-sdesktop="20" data-mobi="0" data-smobi="0"></div>
                 <div class="content">
-                    <div class="caption">Our Features</div>
-                    <h4 class="heading">Reason to choose Suprimo over others in the market</h4>
+                    <div class="title"><a href="#">Nuestra Entidad</a></div>
                     <p class="description">
-                        Lorem ipsum dolor sit amet, consecte dunt ut labore et dot  nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor amco laboris nisi ut aliqui
+                        <b>MISIÓN</b><br>
+                        Asesorar y brindar soluciones jurídicas a nuestros clientes, en las diferentes áreas del derecho, ofreciendo un ser vicio de confidencialidad, calidad y excelencia, posicionándonos como una sociedad líder en el departamento del Huila en la prestación de servicios de representación judicial y consultoría jurídicas.
+                    </p>
+                    <p class="description">
+                        <b>VISIÓN</b><br>
+                        En 2025 ser reconocida como una firma consultora líder a nivel nacional, comprometida con el desarrollo y posicionamiento de nuestros clientes, basados en la eficiencia jurídica que permita lograr mejores estándares de competitividad.
                     </p>
                     <div class="fl-btn">
-                        <a href="#" class="hvr-vertical">read more</a>
+                        {{-- <a href="#" class="hvr-vertical">Ver mas</a> --}}
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div><!-- featured-banner -->
-<section class="partners">
+</section>
+
+<section class="practice-featured">
+    <div class="featured">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12">
+                    <div class="featured-post">
+                        <div class="entry-image">
+                            <img src="{{ asset('assets/images/home1/14.png') }}" alt="images">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="flat-spacer" data-desktop="63" data-sdesktop="63" data-mobi="30" data-smobi="30"></div>
+                    <div class="content">
+                        {{-- <div class="caption">Principios Institucionales</div> --}}
+                        <h4 class="heading">Principios Institucionales</h4>
+                        <p class="description">
+                            <b>OPORTUNIDAD</b><br>
+                            La prevención de los procesos legales frente a cualquier jurisdicción es uno de los propósitos de nuestro actuar, mas que por tendencia actuar por la desjudicialización del conflicto. Es así como la prevención y celeridad de las actuaciones de la firma constituyen nuestra meta y propósito.
+                        </p>
+                        <p class="description">
+                            <b>PREVENCIÓN:</b><br>
+                            Nuestra filosofía corporativa esta orientada a la prestación de servicios de asesoría y consultoría preventiva en virtud de la importancia y efecto que conlleva actuaciones como estas en el desarrollo de los asuntos legales y teniendo como prioridad la solución de los problemas de nuestros clientes y la prevención de sus conflictos con miras a optimizar sus recursos
+                        </p>
+                        <p class="description">
+                            <b>EFECTIVIDAD:</b><br>
+                            Del análisis profundo de las posibles soluciones jurídicas únicamente se adoptan las de mayor beneficio para nuestros clientes, orientando nuestra acción a la defensa de sus intereses, la minimización del impacto y el menoscabo de los mismos
+                        </p>
+                        <p class="description mb-3">
+                            <b>RESPONSABILIDAD, CONFIABILIDAD Y ÉTICA:</b><br>
+                            Ofrecemos tranquilidad jurídica a quienes depositan en nuestras manos sus asuntos legales, prejudiciales y judiciales, con la mayor garantía de contar con nuestra especial, diligencia y el mayor sigilo profesional.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!-- featured -->
+</section>
+
+<div class="faq" id="politica-de-calidad">
     <div class="container">
         <div class="title-section text-center">
-            <h3 class="flat-title">Our Partners</h3>
-            <p class="sub-title">Dolore magna aliqu onoet enim ad minim veniam</p>
+            <h3 class="flat-title">Política de Calidad</h3>
         </div>
-        <table class="partners-table">
-            <tbody>
-                <tr>
-                    <td><img src="{{ asset('assets/images/home1/26.png') }}" alt="images"></td>
-                    <td><img src="{{ asset('assets/images/home1/27.png') }}" alt="images"></td>
-                    <td><img src="{{ asset('assets/images/home1/28.png') }}" alt="images"></td>
-                    <td><img src="{{ asset('assets/images/home1/29.png') }}" alt="images"></td>
-                    <td><img src="{{ asset('assets/images/home1/30.png') }}" alt="images"></td>
-                    <td><img src="{{ asset('assets/images/home1/31.png') }}" alt="images"></td>
-                </tr>
-                <tr>
-                    <td><img src="{{ asset('assets/images/home1/32.png') }}" alt="images"></td>
-                    <td><img src="{{ asset('assets/images/home1/33.png') }}" alt="images"></td>
-                    <td><img src="{{ asset('assets/images/home1/34.png') }}" alt="images"></td>
-                    <td><img src="{{ asset('assets/images/home1/35.png') }}" alt="images"></td>
-                    <td><img src="{{ asset('assets/images/home1/36.png') }}" alt="images"></td>
-                    <td><img src="{{ asset('assets/images/home1/37.png') }}" alt="images"></td>
-                </tr>
-            </tbody>
-        </table>
+            <div class="content-tab">
+                <div class="content-inner">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12">
+                            <div class="questions-content">
+                                <div class="item-reply">
+                                    La excelencia, eficacia y responsabilidad en cada servicio prestado, nos dan la garantia de generar la mayor satisfaccion a nuestros clientes. Nuestro capital humano capacitado, nos permite obtener el éxito esperado por todos. Estamos comprometidos en el cumplimiento legal de todos los requisitos exigidos en los ordenamiento jurídicos actuales siempre buscando la mejora continua de nuestro Sistema de Gestion de Calidad.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-</section><!-- partners -->
+</div>
+
 @endsection

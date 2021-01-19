@@ -28,3 +28,8 @@ Route::get('/servicios', function () {
 Route::get('/contacto', function () {
     return view('contacto');
 });
+
+Route::post('/consultas/solicitar', 'ConstultasController@solicitar_consulta');
+
+Route::get('/procesos/ver/{id}', 'ProcesosController@ver');
+Route::post('/procesos/validar', 'ProcesosController@validar');

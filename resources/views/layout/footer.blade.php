@@ -1,7 +1,7 @@
 <footer id="footer" class="footer">
     <div class="footer-widgets">
         <div class="container">
-            
+
             <div class="footer-bottom">
                 <div class="row">
                     <div class="col-lg-6 col-md-12">
@@ -11,7 +11,7 @@
                                     <img src="{{ asset('assets/images/logo/01.png') }}" width="50px" alt="images">
                                 </div>
                                 <p class="text-justify pr-5">
-                                    Naboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proiden
+                                    OB consultores S.A.S., somos una empresa integrada por un equipo de abogados altamente capacitados y cualificados con valores y principio. Dedicados a la consultoría, especializados en derecho penal, civil, laboral, familiar, administrativo, pensiones, insolvencia económica, seguridad social y asesoría en tránsito y transporte. Lo que nos permite ofrecer un servicio multidisciplinar integral para satisfacer las necesidades de nuestros clientes.
                                 </p>
                                 <div class="list-socials">
                                     <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
@@ -31,7 +31,8 @@
                                     <li><a href="/nosotros">Nosotros</a></li>
                                     <li><a href="/servicios">Servicios</a></li>
                                     <li><a href="/contacto">Contacto</a></li>
-                                    <li><a href="/administrador">APP</a></li>
+                                    <li><a href="{{ asset('assets/revista/ObConsultores/index.html') }}" target="_blank">BROCHURE</a></li>
+                                    <li><a href="http://admin.obconsultores.com">APP</a></li>
                                 </ul>
                             </div>
                         </div>
