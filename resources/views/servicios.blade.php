@@ -163,7 +163,7 @@
 <div class="blog-content">
     <div class="container">
         <div class="row">
-            <div class="col-lg-6 col-md-12">
+            <div class="col-12">
                 <div class="post-blog">
                     <article class="main-post mg-bottom-bl" id="DerechoPenal">
                         <div class="featured-post">
@@ -230,7 +230,7 @@
                                                 relacionados con la protección del consumidor y derecho de la
                                                 competencia.<br>
                                             Trámite y culminación de procesos ante la jurisdicción civil.<br>
-                                        
+
                                     </p>
 
                                 </div>
@@ -390,7 +390,7 @@
                     </article> --}}
                 </div>
             </div>
-            {{-- <div class="col-lg-6 col-md-12">
+            {{-- <div class="col-12">
                 <div class="post-blog">
                     <article class="main-post mg-bottom-bl">
                         <div class="featured-post">
