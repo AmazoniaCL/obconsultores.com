@@ -187,7 +187,7 @@
                     <article class="main-post mg-bottom-bl" id="DerechoPrivado">
                         <div class="featured-post">
                             <div class="entry-img">
-                                <a href="javascript:;"><img src="{{ asset('assets/images/practice/09.jpg') }}" alt="images"></a>
+                                <a href="javascript:;"><img src="{{ asset('assets/images/practice/04.png') }}" alt="images"></a>
                             </div>
                         </div>
                         <div class="post-content content-blog clearfix">
@@ -240,7 +240,7 @@
                     <article class="main-post mg-bottom-bl" id="DerechoLaboral">
                         <div class="featured-post">
                             <div class="entry-img">
-                                <a href="javascript:;"><img src="{{ asset('assets/images/practice/09.jpg') }}" alt="images"></a>
+                                <a href="javascript:;"><img src="{{ asset('assets/images/practice/05.png') }}" alt="images"></a>
                             </div>
                         </div>
                         <div class="post-content content-blog clearfix">
@@ -298,7 +298,7 @@
                     <article class="main-post mg-bottom-bl" id="Pensiones">
                         <div class="featured-post">
                             <div class="entry-img">
-                                <a href="javascript:;"><img src="{{ asset('assets/images/practice/09.jpg') }}" alt="images"></a>
+                                <a href="javascript:;"><img src="{{ asset('assets/images/practice/08.png') }}" alt="images"></a>
                             </div>
                         </div>
                         <div class="post-content content-blog clearfix">
