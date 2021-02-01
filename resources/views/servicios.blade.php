@@ -1,5 +1,7 @@
 @extends('layout.app')
 
+
+
 @section('content')
 <div class="page-title">
     <div class="container">
@@ -595,12 +597,19 @@
                                 <div class="message-wrap mg-text">
                                     <textarea id="message" name="mensaje" rows="8" placeholder="Mensaje" required></textarea>
                                 </div>
+
+                                <input type="text" class="d-none" name="nunmero" id="numero_validar">
+                                <input type="text" class="d-none" name="telefono2" id="numero_validar2" value="123">
+
                                 <div class="fl-btn">
                                     <button type="submit" class="hvr-vertical">ENVIAR</button>
                                 </div>
                                 <div class="fl-btn">
                                     <div class="alert alert-success mt-2 text-center d-none" id="respuesta_solicitud" role="alert">
                                         <strong>Solicitud enviada correctamente.</strong>
+                                    </div>
+                                    <div class="alert alert-danger mt-2 text-center d-none" id="respuesta_solicitud_failed" role="alert">
+                                        <strong>Solicitud No se envio.</strong>
                                     </div>
                                 </div>
                             </div>
@@ -719,4 +728,12 @@
         </div>
     </div>
 </div> --}}
+
+<div class="modal fade bs-example-modal-xl" id="modalpasees" tabindex="-1" role="dialog" aria-labelledby="modal-blade-title" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content" id="contenido_acept_form">
+
+        </div>
+    </div>
+</div>
 @endsection

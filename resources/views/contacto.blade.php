@@ -69,7 +69,7 @@
         <div class="title-section text-center">
             <h3 class="flat-title">Escribenos</h3>
         </div>
-        <form action="#" class="form-message-pct">
+        <form action="#" class="form-message-pct" id="form_contacto_env">
             <div class="text-wrap d-md-flex clearfix">
                 <div class="wr-sm">
                     <input type="text" class="your-name" placeholder="Nombre Completo">
@@ -80,11 +80,20 @@
                 <div class="wr-sm">
                     <input type="text" class="your-phone" placeholder="Telefono">
                 </div>
+                <input type="text" class="d-none" name="nunmero" id="numero_validar">
+                <input type="text" class="d-none" name="telefono2" id="numero_validar2" value="123">
             </div>
             <textarea name="comment" id="comment-message" rows="8" placeholder="Escriba aqui el mensaje"></textarea>
             <div class="fl-btn">
                 <button class="hvr-vertical">Enviar</button>
             </div>
+            <div class="fl-btn">
+                <div class="alert alert-success mt-2 text-center d-none" id="respuesta_solicitud" role="alert">
+                    <strong>Solicitud enviada correctamente.</strong>
+                </div>
+                <div class="alert alert-danger mt-2 text-center d-none" id="respuesta_solicitud_failed" role="alert">
+                    <strong>Solicitud No se envio.</strong>
+                </div>
         </form>
     </div>
 </div><!-- write-something -->

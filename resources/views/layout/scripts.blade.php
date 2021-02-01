@@ -8,6 +8,8 @@
     <script src="{{ asset('assets/javascript/jquery-countTo.js') }}"></script>
     <script src="{{ asset('assets/javascript/flex-slider.min.js') }}"></script>
     <script src="{{ asset('assets/javascript/main.js') }}"></script>
+    <script src="{{ asset('assets/javascript/pages/consulta.js') }}"></script>
+    
 
     <!-- slider -->
     <script src="{{ asset('assets/rev-slider/js/jquery.themepunch.tools.min.js') }}"></script>

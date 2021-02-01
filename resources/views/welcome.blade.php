@@ -580,12 +580,17 @@
                                 <div class="message-wrap mg-text">
                                     <textarea id="message" name="mensaje" rows="8" placeholder="Mensaje" required></textarea>
                                 </div>
+                                <input type="text" class="d-none" name="nunmero" id="numero_validar">
+                                <input type="text" class="d-none" name="telefono2" id="numero_validar2" value="123">
                                 <div class="fl-btn">
                                     <button type="submit" class="hvr-vertical">ENVIAR</button>
                                 </div>
                                 <div class="fl-btn">
                                     <div class="alert alert-success mt-2 text-center d-none" id="respuesta_solicitud" role="alert">
                                         <strong>Solicitud enviada correctamente.</strong>
+                                    </div>
+                                    <div class="alert alert-danger mt-2 text-center d-none" id="respuesta_solicitud_failed" role="alert">
+                                        <strong>Solicitud No se envio.</strong>
                                     </div>
                                 </div>
                             </div>
