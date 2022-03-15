@@ -42,9 +42,9 @@
                             <h2 class="widget-title">Contacto</h2>
                             <div class="content">
                                 <ul>
-                                    <li><span class="text address">Cra. 4 #9-25 of 210, Neiva</span></li>
-                                    <li><span class="text phone">(+57) 316 875 6444</span></li>
-                                    <li><span class="text email">gerencia@obconsultores.com</span></li>
+                                    <li><span class="text address">{{ App\Models\Config_pagina::first()->direccion ?? '' }}</span></li>
+                                    <li><span class="text phone">{{ App\Models\Config_pagina::first()->telefono ?? '' }}</span></li>
+                                    <li><span class="text email">{{ App\Models\Config_pagina::first()->correo ?? '' }}</span></li>
                                 </ul>
                             </div>
                         </div>
@@ -58,7 +58,7 @@
                     <div class="row">
                         <div class="col-lg-12 col-md-12">
                             <div class="copyright text-center">
-                                Todos los derechos reservados  ©  <a href="#">ObConsultores</a>  2020
+                                Todos los derechos reservados  ©  <a href="#">ObConsultores</a>  2021
                             </div>
                         </div>
                     </div>

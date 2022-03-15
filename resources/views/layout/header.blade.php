@@ -3,13 +3,13 @@
         <div class="row">
             <div class="col-lg-6 col-md-12">
                 <ul class="flat-information d-lg-flex align-items-center">
-                    <li class="email"><a href="#" title="Email">gerencia@obconsultores.com</a></li>
-                    <li class="address"><a href="#" title="Address">Cra. 4 #9-25 of 210, Neiva</a></li>
+                    <li class="email"><a href="#" title="Email">{{ App\Models\Config_pagina::first()->correo ?? '' }}</a></li>
+                    <li class="address"><a href="#" title="Address">{{ App\Models\Config_pagina::first()->direccion ?? '' }}</a></li>
                 </ul>
             </div>
             <div class="col-lg-6 col-md-12">
                 <div class="flat-contact-us d-lg-flex align-items-center">
-                    <a href="#" class="phone">(+57) 316 875 6444</a>
+                    <a href="#" class="phone">(+57) {{ App\Models\Config_pagina::first()->telefono ?? '' }}</a>
                     <a href="#consulta" class="cosulting hvr-vertical">SOLICITAR CONSULTA
                         <div class="border-animate">
                             <div class="top"></div>
